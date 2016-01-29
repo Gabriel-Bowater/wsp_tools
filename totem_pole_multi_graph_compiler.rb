@@ -178,6 +178,7 @@ def help_docs
 	puts "Data resolution flags -3: 3600 second step (1 hour). Available for last year of file, usually the entire file range"
 	puts "Data resolution flags -4: 86400 second step (1 day). Available for up to the last five years of file, doesn't exist in most files"
 	puts "If making a chart that covers a step between data resolutions a DRF is recommended to avoid irregularity of data. Lower resolutions (higher flag numbers) should be favoured "
+	puts "Recommended output file name syntax 'file1-file2-graphname-rangefrom-rangeto-dataresolution.csv. If suffix is omitted it will be added' "
 	puts "*"*80
 end
 
